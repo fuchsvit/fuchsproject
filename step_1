@@ -1,4 +1,5 @@
 #!/bin/bash
-sudo apt install git;
-git config --global user.name "Your Name";
-git config --global user.email "youremail@domain.com";
+sudo apt install apache2 apache2-util | sh
+sudo systemctl enable apache2 | sh
+sudo systemctl start apache2 | sh
+
