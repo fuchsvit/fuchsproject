@@ -1,5 +1,0 @@
-#!/bin/bash
-sudo apt install apache2 apache2-util | sh
-sudo systemctl enable apache2 | sh
-sudo systemctl start apache2 | sh
-
